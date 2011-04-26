@@ -25,7 +25,7 @@ laball<-c(a,b,c,d)
       laball<-as.data.frame(laball,ncol=1)
       rownames(laball)<-c('res1','res2','res3','res4')
       laball<-na.omit(subset(laball,laball!='Any'))
-      if (nrow(laball)>=1){    ## Specify more than (>=)1 residues use scatter3d best
+      if (nrow(laball)>=1){    ##  Specify more than (>=)1 residues use scatter3d best
       for (i in rownames(laball)){
            mydata<-mydata[which(as.character(mydata[,i])==rep(laball[i,1],nrow(mydata))),]
           }
@@ -44,7 +44,6 @@ a<-svalue(selectres1)
 b<-svalue(selectres2)
 c<-svalue(selectres3)
 d<-svalue(selectres4)
-if(a!="Any" | b!="Any" | c!="Any" | d!="Any")
 mytplot(a,b,c,d)
 }
 if(svalue(selectplot)=="3D Angle-Torsion-Angle Correlation")

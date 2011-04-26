@@ -11,8 +11,8 @@ Tools for graphically displaying distributional information about residue-level 
 \tabular{ll}{
 Package: \tab press\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2010-07-20\cr
+Version: \tab 2.0\cr
+Date: \tab 2011-4-26\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes\cr
 }
